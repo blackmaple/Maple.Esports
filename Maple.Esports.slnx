@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Maple.Esports.Metadata/Maple.Esports.Metadata.csproj" />
+  <Project Path="Maple.Esports/Maple.Esports.csproj" />
+</Solution>

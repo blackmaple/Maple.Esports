@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+	  <PackageReference Include="Maple.MonoGameAssistant.GameDTO" Version="1.1.0-rc" />
+	  <PackageReference Include="Maple.MonoGameAssistant.MetadataExtensions" Version="1.1.0-rc" />
+	  <PackageReference Include="Maple.MonoGameAssistant.MetadataSourceGenerator" Version="1.1.2-rc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="MetadataModel\" />
+  </ItemGroup>
+
+</Project>
