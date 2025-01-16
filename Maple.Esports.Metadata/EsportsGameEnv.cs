@@ -35,12 +35,7 @@ namespace Maple.Esports.Metadata
           
         }
 
-        public static partial nint K { get; }
+     
     }
 
-    partial class EsportsGameEnv
-    {
-        
-        public static partial nint K { get => nint.Zero; }
-    }
-}
+ }
