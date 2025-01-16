@@ -554,27 +554,27 @@ namespace Maple.Esports.Metadata
             /*
            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<LoansData>k__BackingField", "GameMain.ClubSystem.ClubLoansData")]
            public partial nint LOANS_DATA { get; set; } 
-*/
+ */
 
             /// <summary>
             /// 0x2E0 System.Int32 coachPoint
             /// struct ["mscorlib"."System"."Int32"]
             /// </summary>
             /// <returns>struct System.Int32</returns>
-            /*
-           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("coachPoint", "System.Int32")]
-           public partial System.Int32 COACH_POINT { get; set; } 
-*/
+
+            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("coachPoint", default)]
+            public partial System.Int32 COACH_POINT { get; set; }
+
 
             /// <summary>
             /// 0x2E4 System.Int32 trainPoint
             /// struct ["mscorlib"."System"."Int32"]
             /// </summary>
             /// <returns>struct System.Int32</returns>
-            /*
-           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("trainPoint", "System.Int32")]
-           public partial System.Int32 TRAIN_POINT { get; set; } 
-*/
+
+            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("trainPoint", "System.Int32")]
+            public partial System.Int32 TRAIN_POINT { get; set; }
+
 
             /// <summary>
             /// 0x2E8 System.Int32 budget

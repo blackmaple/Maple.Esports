@@ -24,10 +24,19 @@ namespace Maple.Esports
             return new EsportsGameContext(this.Logger, searchService, this.RuntimeContext);
         }
 
-
-        protected override ValueTask F9_KeyDown()
+        public Task<EsportsGameEnv> GetEsportsGameEnvAsync()
         {
-            return base.F9_KeyDown();
+            return this.MonoTaskAsync(p => p.GetEsportsGameEnv());
+        }
+        public async Task<EsportsGameEnv> GetEsportsGameEnvThrowIfNotLoadedAsync()
+        {
+            var gameEnv = await this.MonoTaskAsync(p => p.GetEsportsGameEnv()).ConfigureAwait(false);
+            return gameEnv.GetThrowIfNotLoaded();
+        }
+        protected override async ValueTask F9_KeyDown()
+        {
+            var gameEnv = await this.GetEsportsGameEnvThrowIfNotLoadedAsync().ConfigureAwait(false);
+            gameEnv.Test();
         }
     }
 }

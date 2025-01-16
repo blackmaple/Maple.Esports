@@ -1,4 +1,5 @@
 ﻿using Maple.Esports.Metadata.MetadataModel;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,11 +11,12 @@ namespace Maple.Esports.Metadata
     public partial class EsportsGameEnv
     {
         public EsportsGameContext Context { get; }
+        public ILogger Logger => Context.Logger;
         public Main.Ptr_Main PtrMain { get; }
         public Game.Ptr_Game PtrGame { get; }
         public Club.Ptr_Club PtrClub => this.PtrGame.CLUB_PLAYER;
 
-        public DataComponent.Ptr_DataComponent DataComponent => PtrClub.C_DATA;
+        //   public DataComponent.Ptr_DataComponent ClubDataComponent => PtrClub.C_DATA;
 
         public EsportsGameEnv(EsportsGameContext gameContext)
         {
@@ -24,23 +26,17 @@ namespace Maple.Esports.Metadata
         }
 
 
-        public bool ThrowNotLoadGame()
+        public EsportsGameEnv GetThrowIfNotLoaded()
         {
-        
+
             if (this.PtrGame)
             {
-                return true;
+                return this;
             }
-            return Maple.MonoGameAssistant.GameDTO.GameException.ThrowIfNotLoaded<bool>();
-          
+            return Maple.MonoGameAssistant.GameDTO.GameException.ThrowIfNotLoaded<EsportsGameEnv>();
+
         }
 
-        public static partial nint K { get; }
-    }
 
-    partial class EsportsGameEnv
-    {
-        
-        public static partial nint K { get => nint.Zero; }
     }
 }
