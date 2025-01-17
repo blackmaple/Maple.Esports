@@ -1,4 +1,4 @@
-namespace Maple.Esports.Metadata
+namespace Maple.Esports.Metadata.GameMain.ClubSystem
 {
     /// <summary>
     /// class ["Assembly-CSharp".""."DataComponent"]

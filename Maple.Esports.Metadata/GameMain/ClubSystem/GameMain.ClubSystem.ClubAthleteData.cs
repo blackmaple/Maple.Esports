@@ -1,9 +1,10 @@
+using Maple.Esports.Metadata.GameMain.UnitSystem;
 using Maple.MonoGameAssistant.Core;
 
-namespace Maple.Esports.Metadata
+namespace Maple.Esports.Metadata.GameMain.ClubSystem
 {
-    using EsportsDictionary_ATHLETES = PMonoDictionary<Ref_MonoDictionary_Esports, System.Guid, Athlete.Ptr_Athlete, Ref_MonoEntry<System.Guid, Athlete.Ptr_Athlete>>;
-    using EsportsDictionary_CONTESTANT = PMonoDictionary<Ref_MonoDictionary_Esports, HeroRoleFlags, Athlete.Ptr_Athlete, Ref_MonoEntry<HeroRoleFlags, Athlete.Ptr_Athlete>>;
+    using EsportsDictionary_ATHLETES = PMonoDictionary<Ref_MonoDictionary_Esports, System.Guid, GameMain.AthleteSystem.Athlete.Ptr_Athlete, Ref_MonoEntry<System.Guid, AthleteSystem.Athlete.Ptr_Athlete>>;
+    using EsportsDictionary_CONTESTANT = PMonoDictionary<Ref_MonoDictionary_Esports, HeroRoleFlags, AthleteSystem.Athlete.Ptr_Athlete, Ref_MonoEntry<HeroRoleFlags, AthleteSystem.Athlete.Ptr_Athlete>>;
 
     /// <summary>
     /// class ["Assembly-CSharp"."GameMain.ClubSystem"."ClubAthleteData"]
@@ -70,7 +71,7 @@ namespace Maple.Esports.Metadata
             /// <returns>class System.Collections.Generic.List<GameMain.AthleteSystem.Athlete></returns>
 
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Substitute>k__BackingField", "System.Collections.Generic.List<GameMain.AthleteSystem.Athlete>")]
-            public partial PMonoList_S<Athlete.Ptr_Athlete> SUBSTITUTE { get; }
+            public partial PMonoList_S<AthleteSystem.Athlete.Ptr_Athlete> SUBSTITUTE { get; }
 
         }
 

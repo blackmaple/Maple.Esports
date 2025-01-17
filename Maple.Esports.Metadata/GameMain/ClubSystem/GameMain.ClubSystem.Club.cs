@@ -1,4 +1,4 @@
-namespace Maple.Esports.Metadata.MetadataModel
+namespace Maple.Esports.Metadata.GameMain.ClubSystem
 {
     /// <summary>
     /// class ["Assembly-CSharp"."GameMain.ClubSystem"."Club"]
@@ -202,10 +202,10 @@ namespace Maple.Esports.Metadata.MetadataModel
             /// <returns>class GameMain.ClubSystem.Club.DataComponent</returns>
 
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<C_Data>k__BackingField", "GameMain.ClubSystem.Club.DataComponent")]
-            public partial DataComponent.Ptr_DataComponent C_DATA { get; }
+            public partial ref DataComponent.Ptr_DataComponent C_DATA { get; }
 
-            public ref DataComponent.Ptr_DataComponent C_DATA2
-                => ref Maple.Esports.Metadata.MetadataModel.Club.GetMemberFieldValue<Maple.Esports.Metadata.DataComponent.Ptr_DataComponent>(this, Maple.Esports.Metadata.MetadataModel.Club.s_Field_C_DATA);
+            //public ref DataComponent.Ptr_DataComponent C_DATA2
+            //    => ref Maple.Esports.Metadata.MetadataModel.Club.GetMemberFieldValue<Maple.Esports.Metadata.DataComponent.Ptr_DataComponent>(this, Maple.Esports.Metadata.MetadataModel.Club.s_Field_C_DATA);
 
 
             /// <summary>

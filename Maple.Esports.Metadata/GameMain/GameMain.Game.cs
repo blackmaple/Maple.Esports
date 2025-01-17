@@ -1,4 +1,4 @@
-namespace Maple.Esports.Metadata.MetadataModel
+namespace Maple.Esports.Metadata.GameMain
 {
     /// <summary>
     /// class ["Assembly-CSharp"."GameMain"."Game"]
@@ -322,7 +322,7 @@ namespace Maple.Esports.Metadata.MetadataModel
             /// <returns>class GameMain.ClubSystem.Club</returns>
 
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<ClubPlayer>k__BackingField", "GameMain.ClubSystem.Club")]
-            public partial Club.Ptr_Club CLUB_PLAYER { get; }
+            public partial ClubSystem.Club.Ptr_Club CLUB_PLAYER { get; }
 
 
             /// <summary>

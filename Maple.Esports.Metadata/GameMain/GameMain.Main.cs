@@ -1,4 +1,4 @@
-namespace Maple.Esports.Metadata.MetadataModel
+namespace Maple.Esports.Metadata.GameMain
 {
     /// <summary>
     /// class ["Assembly-CSharp"."GameMain"."Main"]

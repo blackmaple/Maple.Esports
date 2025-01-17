@@ -1,9 +1,9 @@
-namespace Maple.Esports.Metadata
+namespace Maple.Esports.Metadata.GameMain.UnitSystem
 {
     /// <summary>
     /// ["Assembly-CSharp"."GameMain.UnitSystem"."HeroRoleFlags"]
     /// </summary>
-    public enum HeroRoleFlags : System.Int32
+    public enum HeroRoleFlags : int
     {
         None = 0x00000000,
         Top = 0x00000001,

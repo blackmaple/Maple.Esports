@@ -1,4 +1,4 @@
-namespace Maple.Esports.Metadata
+namespace Maple.Esports.Metadata.GameMain.AthleteSystem
 {
     /// <summary>
     /// class ["Assembly-CSharp"."GameMain.AthleteSystem"."Athlete"]

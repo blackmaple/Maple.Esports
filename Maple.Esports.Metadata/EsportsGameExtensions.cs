@@ -13,15 +13,15 @@ namespace Maple.Esports.Metadata
 
         public static void Test(this EsportsGameEnv @this)
         {
-            var clubDataComponent = @this.PtrClub.C_DATA;
-            var c = clubDataComponent.COACH_POINT;
+     
+            var c = @this.PtrClub.C_DATA.COACH_POINT;
             @this.Logger.LogInformation("{c}", c);
 
-            var t = clubDataComponent.TRAIN_POINT;
+            var t = @this.PtrClub.C_DATA.TRAIN_POINT;
             @this.Logger.LogInformation("{t}", t);
 
-            @this.PtrClub.C_DATA2.COACH_POINT = 1234;
-            @this.PtrClub.C_DATA2.TRAIN_POINT = 4321;
+            @this.PtrClub.C_DATA.COACH_POINT = 1234;
+            @this.PtrClub.C_DATA.TRAIN_POINT = 4321;
         }
 
     }
