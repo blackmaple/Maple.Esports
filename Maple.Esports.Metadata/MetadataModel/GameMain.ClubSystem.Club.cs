@@ -204,6 +204,9 @@ namespace Maple.Esports.Metadata.MetadataModel
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<C_Data>k__BackingField", "GameMain.ClubSystem.Club.DataComponent")]
             public partial DataComponent.Ptr_DataComponent C_DATA { get; }
 
+            public ref DataComponent.Ptr_DataComponent C_DATA2
+                => ref Maple.Esports.Metadata.MetadataModel.Club.GetMemberFieldValue<Maple.Esports.Metadata.DataComponent.Ptr_DataComponent>(this, Maple.Esports.Metadata.MetadataModel.Club.s_Field_C_DATA);
+
 
             /// <summary>
             /// 0x90 GameMain.ClubSystem.Club.AffairComponent <C_Affair>k__BackingField
