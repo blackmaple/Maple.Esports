@@ -3,9 +3,7 @@ using Maple.MonoGameAssistant.Core;
 
 namespace Maple.Esports.Metadata.GameMain.ClubSystem
 {
-    using EsportsDictionary_ATHLETES = PMonoDictionary<Ref_MonoDictionary_Esports, System.Guid, GameMain.AthleteSystem.Athlete.Ptr_Athlete, Ref_MonoEntry<System.Guid, AthleteSystem.Athlete.Ptr_Athlete>>;
-    using EsportsDictionary_CONTESTANT = PMonoDictionary<Ref_MonoDictionary_Esports, HeroRoleFlags, AthleteSystem.Athlete.Ptr_Athlete, Ref_MonoEntry<HeroRoleFlags, AthleteSystem.Athlete.Ptr_Athlete>>;
-
+ 
     /// <summary>
     /// class ["Assembly-CSharp"."GameMain.ClubSystem"."ClubAthleteData"]
     /// [System.Object]
@@ -41,7 +39,7 @@ namespace Maple.Esports.Metadata.GameMain.ClubSystem
             /// <returns>class System.Collections.Generic.Dictionary<System.Guid , GameMain.AthleteSystem.Athlete></returns>
 
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Athletes>k__BackingField", "System.Collections.Generic.Dictionary<System.Guid,GameMain.AthleteSystem.Athlete>")]
-            public partial EsportsDictionary_ATHLETES ATHLETES { get; }
+            public partial PMonoDictionary_Esports<Guid, AthleteSystem.Athlete.Ptr_Athlete> ATHLETES { get; }
 
 
             /// <summary>
@@ -51,7 +49,7 @@ namespace Maple.Esports.Metadata.GameMain.ClubSystem
             /// <returns>class System.Collections.Generic.Dictionary<GameMain.UnitSystem.HeroRoleFlags , GameMain.AthleteSystem.Athlete></returns>
 
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Contestant>k__BackingField", "System.Collections.Generic.Dictionary<GameMain.UnitSystem.HeroRoleFlags,GameMain.AthleteSystem.Athlete>")]
-            public partial EsportsDictionary_CONTESTANT CONTESTANT { get; }
+            public partial PMonoDictionary_Esports<GameMain.UnitSystem.HeroRoleFlags, AthleteSystem.Athlete.Ptr_Athlete> CONTESTANT { get; }
 
 
             /// <summary>
@@ -61,7 +59,7 @@ namespace Maple.Esports.Metadata.GameMain.ClubSystem
             /// <returns>class System.Collections.Generic.Dictionary<GameMain.UnitSystem.HeroRoleFlags , GameMain.AthleteSystem.Athlete></returns>
 
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<ScrimmageContestant>k__BackingField", "System.Collections.Generic.Dictionary<GameMain.UnitSystem.HeroRoleFlags,GameMain.AthleteSystem.Athlete>")]
-            public partial EsportsDictionary_CONTESTANT SCRIMMAGE_CONTESTANT { get; }
+            public partial PMonoDictionary_Esports<GameMain.UnitSystem.HeroRoleFlags, AthleteSystem.Athlete.Ptr_Athlete> SCRIMMAGE_CONTESTANT { get; }
 
 
             /// <summary>

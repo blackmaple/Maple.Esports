@@ -18,7 +18,7 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
 
             public static implicit operator Ptr_DataComponent(System.IntPtr ptr) => new Ptr_DataComponent(ptr);
             public static implicit operator System.IntPtr(Ptr_DataComponent ptr) => ptr.m_Pointer;
-            public static implicit operator bool (Ptr_DataComponent ptr) => ptr.m_Pointer != System.IntPtr.Zero;
+            public static implicit operator bool(Ptr_DataComponent ptr) => ptr.m_Pointer != System.IntPtr.Zero;
         }
 
         /// <summary>
@@ -31,9 +31,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System"."String"]
             /// </summary>
             /// <returns>class System.String</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Name>k__BackingField", "System.String")]
-            public partial nint NAME { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Name>k__BackingField", "System.String")]
+           public partial nint NAME { get; set; } 
 */
 
             /// <summary>
@@ -41,9 +41,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// abstract class ["Utility"."Utility.GeneralObject"."GeneralObject"]
             /// </summary>
             /// <returns>abstract class Utility.GeneralObject.GeneralObject</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Obj>k__BackingField", "Utility.GeneralObject.GeneralObject")]
-            public partial nint OBJ { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Obj>k__BackingField", "Utility.GeneralObject.GeneralObject")]
+           public partial nint OBJ { get; set; } 
 */
 
             /// <summary>
@@ -51,9 +51,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["mscorlib"."System"."Boolean"]
             /// </summary>
             /// <returns>struct System.Boolean</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<IsActive>k__BackingField", "System.Boolean")]
-            public partial System.Boolean IS_ACTIVE { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<IsActive>k__BackingField", "System.Boolean")]
+           public partial System.Boolean IS_ACTIVE { get; set; } 
 */
 
             /// <summary>
@@ -61,9 +61,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["mscorlib"."System"."Int32"]
             /// </summary>
             /// <returns>struct System.Int32</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Utility.PoolSystem.IPoolItem.SpawnId>k__BackingField", "System.Int32")]
-            public partial System.Int32 UTILITY_POOL_SYSTEM_I_POOL_ITEM_SPAWN_ID { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Utility.PoolSystem.IPoolItem.SpawnId>k__BackingField", "System.Int32")]
+           public partial System.Int32 UTILITY_POOL_SYSTEM_I_POOL_ITEM_SPAWN_ID { get; set; } 
 */
 
             /// <summary>
@@ -71,19 +71,19 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["Assembly-CSharp"."GameMain.AthleteSystem"."AthletePersonalData"]
             /// </summary>
             /// <returns>struct GameMain.AthleteSystem.AthletePersonalData</returns>
-             /*
+
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("personal", "GameMain.AthleteSystem.AthletePersonalData")]
-            public partial GameMain.AthleteSystem.AthletePersonalData PERSONAL { get; set; } 
-*/
+            public partial ref GameMain.AthleteSystem.AthletePersonalData.Ref_AthletePersonalData PERSONAL { get; }
+
 
             /// <summary>
             /// 0x48 System.Collections.Generic.Dictionary<GameMain.UnitSystem.HeroClassTypes , GameMain.AthleteSystem.HeroClassAdaption> heroAdaption
             /// class ["mscorlib"."System.Collections.Generic"."Dictionary`2"]
             /// </summary>
             /// <returns>class System.Collections.Generic.Dictionary<GameMain.UnitSystem.HeroClassTypes , GameMain.AthleteSystem.HeroClassAdaption></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroAdaption", "System.Collections.Generic.Dictionary<GameMain.UnitSystem.HeroClassTypes,GameMain.AthleteSystem.HeroClassAdaption>")]
-            public partial nint HERO_ADAPTION { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroAdaption", "System.Collections.Generic.Dictionary<GameMain.UnitSystem.HeroClassTypes,GameMain.AthleteSystem.HeroClassAdaption>")]
+           public partial nint HERO_ADAPTION { get; set; } 
 */
 
             /// <summary>
@@ -91,9 +91,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System.Collections.Generic"."Dictionary`2"]
             /// </summary>
             /// <returns>class System.Collections.Generic.Dictionary<GameMain.UnitSystem.UnitSetting , GameMain.AthleteSystem.AthleteHeroData></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroDataDict", "System.Collections.Generic.Dictionary<GameMain.UnitSystem.UnitSetting,GameMain.AthleteSystem.AthleteHeroData>")]
-            public partial nint HERO_DATA_DICT { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroDataDict", "System.Collections.Generic.Dictionary<GameMain.UnitSystem.UnitSetting,GameMain.AthleteSystem.AthleteHeroData>")]
+           public partial nint HERO_DATA_DICT { get; set; } 
 */
 
             /// <summary>
@@ -101,9 +101,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System.Collections.Generic"."List`1"]
             /// </summary>
             /// <returns>class System.Collections.Generic.List<GameMain.AthleteSystem.TraitBattleCardsSetting></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("comprehendOptions", "System.Collections.Generic.List<GameMain.AthleteSystem.TraitBattleCardsSetting>")]
-            public partial nint COMPREHEND_OPTIONS { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("comprehendOptions", "System.Collections.Generic.List<GameMain.AthleteSystem.TraitBattleCardsSetting>")]
+           public partial nint COMPREHEND_OPTIONS { get; set; } 
 */
 
             /// <summary>
@@ -111,9 +111,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System.Collections.Generic"."List`1"]
             /// </summary>
             /// <returns>class System.Collections.Generic.List<GameMain.AthleteSystem.AthleteBreakthroughTaskSetting></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("breakThroughOptions", "System.Collections.Generic.List<GameMain.AthleteSystem.AthleteBreakthroughTaskSetting>")]
-            public partial nint BREAK_THROUGH_OPTIONS { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("breakThroughOptions", "System.Collections.Generic.List<GameMain.AthleteSystem.AthleteBreakthroughTaskSetting>")]
+           public partial nint BREAK_THROUGH_OPTIONS { get; set; } 
 */
 
             /// <summary>
@@ -121,9 +121,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["Assembly-CSharp"."GameMain.ClubSystem"."AthleteBreakthroughData"]
             /// </summary>
             /// <returns>struct GameMain.ClubSystem.AthleteBreakthroughData</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("breakThroughData", "GameMain.ClubSystem.AthleteBreakthroughData")]
-            public partial GameMain.ClubSystem.AthleteBreakthroughData BREAK_THROUGH_DATA { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("breakThroughData", "GameMain.ClubSystem.AthleteBreakthroughData")]
+           public partial GameMain.ClubSystem.AthleteBreakthroughData BREAK_THROUGH_DATA { get; set; } 
 */
 
             /// <summary>
@@ -131,9 +131,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["Assembly-CSharp"."GameMain.Career"."CareerAthlete"]
             /// </summary>
             /// <returns>class GameMain.Career.CareerAthlete</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("career", "GameMain.Career.CareerAthlete")]
-            public partial nint CAREER { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("career", "GameMain.Career.CareerAthlete")]
+           public partial nint CAREER { get; set; } 
 */
 
             /// <summary>
@@ -141,9 +141,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System.Collections.Generic"."List`1"]
             /// </summary>
             /// <returns>class System.Collections.Generic.List<GameMain.AthleteSystem.AthleteTitleData></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("athleteTitleDatas", "System.Collections.Generic.List<GameMain.AthleteSystem.AthleteTitleData>")]
-            public partial nint ATHLETE_TITLE_DATAS { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("athleteTitleDatas", "System.Collections.Generic.List<GameMain.AthleteSystem.AthleteTitleData>")]
+           public partial nint ATHLETE_TITLE_DATAS { get; set; } 
 */
 
             /// <summary>
@@ -151,9 +151,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["Assembly-CSharp"."GameMain.AthleteSystem"."AthleteTitleData"]
             /// </summary>
             /// <returns>struct GameMain.AthleteSystem.AthleteTitleData</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("athleteCurTitle", "GameMain.AthleteSystem.AthleteTitleData")]
-            public partial GameMain.AthleteSystem.AthleteTitleData ATHLETE_CUR_TITLE { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("athleteCurTitle", "GameMain.AthleteSystem.AthleteTitleData")]
+           public partial GameMain.AthleteSystem.AthleteTitleData ATHLETE_CUR_TITLE { get; set; } 
 */
 
             /// <summary>
@@ -161,9 +161,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System.Collections.Generic"."List`1"]
             /// </summary>
             /// <returns>class System.Collections.Generic.List<GameMain.AthleteSystem.HeroMasteryTree></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroMasteryTrees", "System.Collections.Generic.List<GameMain.AthleteSystem.HeroMasteryTree>")]
-            public partial nint HERO_MASTERY_TREES { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroMasteryTrees", "System.Collections.Generic.List<GameMain.AthleteSystem.HeroMasteryTree>")]
+           public partial nint HERO_MASTERY_TREES { get; set; } 
 */
 
             /// <summary>
@@ -171,9 +171,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["Assembly-CSharp"."GameMain.ClubSystem"."RecordScrimmageIncreaseAthlete"]
             /// </summary>
             /// <returns>struct GameMain.ClubSystem.RecordScrimmageIncreaseAthlete</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("scrimmageIncrease", "GameMain.ClubSystem.RecordScrimmageIncreaseAthlete")]
-            public partial GameMain.ClubSystem.RecordScrimmageIncreaseAthlete SCRIMMAGE_INCREASE { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("scrimmageIncrease", "GameMain.ClubSystem.RecordScrimmageIncreaseAthlete")]
+           public partial GameMain.ClubSystem.RecordScrimmageIncreaseAthlete SCRIMMAGE_INCREASE { get; set; } 
 */
 
             /// <summary>
@@ -181,19 +181,19 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["Assembly-CSharp"."GameMain.AthleteSystem"."AthleteContract"]
             /// </summary>
             /// <returns>class GameMain.AthleteSystem.AthleteContract</returns>
-             /*
+
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Contract>k__BackingField", "GameMain.AthleteSystem.AthleteContract")]
-            public partial nint CONTRACT { get; set; } 
-*/
+            public partial ref AthleteSystem.AthleteContract.Ptr_AthleteContract CONTRACT { get; }
+
 
             /// <summary>
             /// 0xF8 System.Collections.Generic.List<GameMain.AthleteSystem.AthleteContractPrefer> <ContractPrefers>k__BackingField
             /// class ["mscorlib"."System.Collections.Generic"."List`1"]
             /// </summary>
             /// <returns>class System.Collections.Generic.List<GameMain.AthleteSystem.AthleteContractPrefer></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<ContractPrefers>k__BackingField", "System.Collections.Generic.List<GameMain.AthleteSystem.AthleteContractPrefer>")]
-            public partial nint CONTRACT_PREFERS { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<ContractPrefers>k__BackingField", "System.Collections.Generic.List<GameMain.AthleteSystem.AthleteContractPrefer>")]
+           public partial nint CONTRACT_PREFERS { get; set; } 
 */
 
             /// <summary>
@@ -201,9 +201,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System.Collections.Generic"."List`1"]
             /// </summary>
             /// <returns>class System.Collections.Generic.List<GameMain.AthleteSystem.AthletePersonality></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Personalities>k__BackingField", "System.Collections.Generic.List<GameMain.AthleteSystem.AthletePersonality>")]
-            public partial nint PERSONALITIES { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Personalities>k__BackingField", "System.Collections.Generic.List<GameMain.AthleteSystem.AthletePersonality>")]
+           public partial nint PERSONALITIES { get; set; } 
 */
 
             /// <summary>
@@ -211,19 +211,19 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["Assembly-CSharp"."GameMain.AthleteSystem"."AthleteEmotion"]
             /// </summary>
             /// <returns>class GameMain.AthleteSystem.AthleteEmotion</returns>
-             /*
+
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<CurrentEmotion>k__BackingField", "GameMain.AthleteSystem.AthleteEmotion")]
-            public partial nint CURRENT_EMOTION { get; set; } 
-*/
+            public partial ref AthleteSystem.AthleteEmotion.Ptr_AthleteEmotion CURRENT_EMOTION { get; }
+
 
             /// <summary>
             /// 0x110 System.Collections.Generic.List<GameMain.AthleteSystem.CareerLifeChangeData> <CareerLifeChangeDatas>k__BackingField
             /// class ["mscorlib"."System.Collections.Generic"."List`1"]
             /// </summary>
             /// <returns>class System.Collections.Generic.List<GameMain.AthleteSystem.CareerLifeChangeData></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<CareerLifeChangeDatas>k__BackingField", "System.Collections.Generic.List<GameMain.AthleteSystem.CareerLifeChangeData>")]
-            public partial nint CAREER_LIFE_CHANGE_DATAS { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<CareerLifeChangeDatas>k__BackingField", "System.Collections.Generic.List<GameMain.AthleteSystem.CareerLifeChangeData>")]
+           public partial nint CAREER_LIFE_CHANGE_DATAS { get; set; } 
 */
 
             /// <summary>
@@ -231,9 +231,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System.Collections.Generic"."List`1"]
             /// </summary>
             /// <returns>class System.Collections.Generic.List<GameMain.AthleteSystem.AthleteCharacteristicSetting></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("characteristicSettings", "System.Collections.Generic.List<GameMain.AthleteSystem.AthleteCharacteristicSetting>")]
-            public partial nint CHARACTERISTIC_SETTINGS { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("characteristicSettings", "System.Collections.Generic.List<GameMain.AthleteSystem.AthleteCharacteristicSetting>")]
+           public partial nint CHARACTERISTIC_SETTINGS { get; set; } 
 */
 
             /// <summary>
@@ -241,9 +241,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System.Collections.Generic"."Dictionary`2"]
             /// </summary>
             /// <returns>class System.Collections.Generic.Dictionary<GameMain.ClubSystem.ClubMedalSetting , System.Int32></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("athleteMedals", "System.Collections.Generic.Dictionary<GameMain.ClubSystem.ClubMedalSetting,System.Int32>")]
-            public partial nint ATHLETE_MEDALS { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("athleteMedals", "System.Collections.Generic.Dictionary<GameMain.ClubSystem.ClubMedalSetting,System.Int32>")]
+           public partial nint ATHLETE_MEDALS { get; set; } 
 */
 
             /// <summary>
@@ -251,9 +251,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["Assembly-CSharp"."GameMain.UnitSystem"."UnitSetting"]
             /// </summary>
             /// <returns>class GameMain.UnitSystem.UnitSetting</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroSetting", "GameMain.UnitSystem.UnitSetting")]
-            public partial nint HERO_SETTING { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroSetting", "GameMain.UnitSystem.UnitSetting")]
+           public partial nint HERO_SETTING { get; set; } 
 */
 
             /// <summary>
@@ -261,9 +261,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["Assembly-CSharp"."GameMain.UnitSystem.Equipment"."HeroEquipmentsDefaultSetting"]
             /// </summary>
             /// <returns>class GameMain.UnitSystem.Equipment.HeroEquipmentsDefaultSetting</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<HeroEquipmentsDefault>k__BackingField", "GameMain.UnitSystem.Equipment.HeroEquipmentsDefaultSetting")]
-            public partial nint HERO_EQUIPMENTS_DEFAULT { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<HeroEquipmentsDefault>k__BackingField", "GameMain.UnitSystem.Equipment.HeroEquipmentsDefaultSetting")]
+           public partial nint HERO_EQUIPMENTS_DEFAULT { get; set; } 
 */
 
             /// <summary>
@@ -271,9 +271,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// class ["mscorlib"."System.Collections.Generic"."List`1"]
             /// </summary>
             /// <returns>class System.Collections.Generic.List<GameMain.UnitSystem.Equipment.HeroEquipmentSetting></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<HeroEquipments>k__BackingField", "System.Collections.Generic.List<GameMain.UnitSystem.Equipment.HeroEquipmentSetting>")]
-            public partial nint HERO_EQUIPMENTS { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<HeroEquipments>k__BackingField", "System.Collections.Generic.List<GameMain.UnitSystem.Equipment.HeroEquipmentSetting>")]
+           public partial nint HERO_EQUIPMENTS { get; set; } 
 */
 
             /// <summary>
@@ -281,39 +281,39 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["Assembly-CSharp"."GameMain.AthleteSystem"."AthleteAbilitiesData"]
             /// </summary>
             /// <returns>struct GameMain.AthleteSystem.AthleteAbilitiesData</returns>
-             /*
+
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("abilities", "GameMain.AthleteSystem.AthleteAbilitiesData")]
-            public partial GameMain.AthleteSystem.AthleteAbilitiesData ABILITIES { get; set; } 
-*/
+            public partial ref GameMain.AthleteSystem.AthleteAbilitiesData.Ref_AthleteAbilitiesData ABILITIES { get; }
+
 
             /// <summary>
             /// 0x1A8 GameMain.ClubSystem.AthleteComprehensionData comprehension
             /// struct ["Assembly-CSharp"."GameMain.ClubSystem"."AthleteComprehensionData"]
             /// </summary>
             /// <returns>struct GameMain.ClubSystem.AthleteComprehensionData</returns>
-             /*
+
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("comprehension", "GameMain.ClubSystem.AthleteComprehensionData")]
-            public partial GameMain.ClubSystem.AthleteComprehensionData COMPREHENSION { get; set; } 
-*/
+            public partial ref GameMain.ClubSystem.AthleteComprehensionData.Ref_AthleteComprehensionData COMPREHENSION { get; }
+
 
             /// <summary>
             /// 0x1B4 GameMain.ClubSystem.AdvancedTrainingAthleteData athleteTrainingData
             /// struct ["Assembly-CSharp"."GameMain.ClubSystem"."AdvancedTrainingAthleteData"]
             /// </summary>
             /// <returns>struct GameMain.ClubSystem.AdvancedTrainingAthleteData</returns>
-             /*
+
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("athleteTrainingData", "GameMain.ClubSystem.AdvancedTrainingAthleteData")]
-            public partial GameMain.ClubSystem.AdvancedTrainingAthleteData ATHLETE_TRAINING_DATA { get; set; } 
-*/
+            public partial ref GameMain.ClubSystem.AdvancedTrainingAthleteData.Ref_AdvancedTrainingAthleteData ATHLETE_TRAINING_DATA { get; }
+
 
             /// <summary>
             /// 0x1B8 System.Int32 heroPoolCount
             /// struct ["mscorlib"."System"."Int32"]
             /// </summary>
             /// <returns>struct System.Int32</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroPoolCount", "System.Int32")]
-            public partial System.Int32 HERO_POOL_COUNT { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("heroPoolCount", "System.Int32")]
+           public partial System.Int32 HERO_POOL_COUNT { get; set; } 
 */
 
             /// <summary>
@@ -321,19 +321,19 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["mscorlib"."System"."Int32"]
             /// </summary>
             /// <returns>struct System.Int32</returns>
-             /*
+
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("abilityLimit", "System.Int32")]
-            public partial System.Int32 ABILITY_LIMIT { get; set; } 
-*/
+            public partial System.Int32 ABILITY_LIMIT { get; set; }
+
 
             /// <summary>
             /// 0x1C0 GameMain.BattleSystem.BattleCardEffectTypes comprehendCardType
             /// enum ["Assembly-CSharp"."GameMain.BattleSystem"."BattleCardEffectTypes"]
             /// </summary>
             /// <returns>enum GameMain.BattleSystem.BattleCardEffectTypes</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("comprehendCardType", "GameMain.BattleSystem.BattleCardEffectTypes")]
-            public partial GameMain.BattleSystem.BattleCardEffectTypes COMPREHEND_CARD_TYPE { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("comprehendCardType", "GameMain.BattleSystem.BattleCardEffectTypes")]
+           public partial GameMain.BattleSystem.BattleCardEffectTypes COMPREHEND_CARD_TYPE { get; set; } 
 */
 
             /// <summary>
@@ -341,9 +341,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["mscorlib"."System"."Boolean"]
             /// </summary>
             /// <returns>struct System.Boolean</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<NeedRenewContract>k__BackingField", "System.Boolean")]
-            public partial System.Boolean NEED_RENEW_CONTRACT { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<NeedRenewContract>k__BackingField", "System.Boolean")]
+           public partial System.Boolean NEED_RENEW_CONTRACT { get; set; } 
 */
 
             /// <summary>
@@ -351,9 +351,9 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["mscorlib"."System"."Int32"]
             /// </summary>
             /// <returns>struct System.Int32</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<YouthWeeks>k__BackingField", "System.Int32")]
-            public partial System.Int32 YOUTH_WEEKS { get; set; } 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<YouthWeeks>k__BackingField", "System.Int32")]
+           public partial System.Int32 YOUTH_WEEKS { get; set; } 
 */
 
             /// <summary>
@@ -361,10 +361,10 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// struct ["Assembly-CSharp"."GameMain.AthleteSystem"."BattleData"]
             /// </summary>
             /// <returns>struct GameMain.AthleteSystem.BattleData</returns>
-             /*
+
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("battleData", "GameMain.AthleteSystem.BattleData")]
-            public partial GameMain.AthleteSystem.BattleData BATTLE_DATA { get; set; } 
-*/
+            public partial ref GameMain.AthleteSystem.BattleData.Ref_BattleData BATTLE_DATA { get; }
+
         }
 
         /// <summary>

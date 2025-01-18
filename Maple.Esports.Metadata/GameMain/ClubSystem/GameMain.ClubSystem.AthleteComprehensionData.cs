@@ -1,4 +1,4 @@
-namespace Maple.Esports.Metadata.GameMain.AthleteSystem
+namespace Maple.Esports.Metadata.GameMain.ClubSystem
 {
     /// <summary>
     /// struct ["Assembly-CSharp"."GameMain.ClubSystem"."AthleteComprehensionData"]
