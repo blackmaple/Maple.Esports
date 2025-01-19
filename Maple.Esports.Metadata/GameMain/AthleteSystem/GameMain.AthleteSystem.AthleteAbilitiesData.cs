@@ -24,15 +24,15 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x14)]
             public System.Single bPreValue;
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x18)]
-            public GameMain.AthleteSystem.AthleteAbilityData aggressive;
+            public GameMain.AthleteSystem.AthleteAbilityData.Ref_AthleteAbilityData aggressive;
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x28)]
-            public GameMain.AthleteSystem.AthleteAbilityData defence;
+            public GameMain.AthleteSystem.AthleteAbilityData.Ref_AthleteAbilityData defence;
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x38)]
-            public GameMain.AthleteSystem.AthleteAbilityData farming;
+            public GameMain.AthleteSystem.AthleteAbilityData.Ref_AthleteAbilityData farming;
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x48)]
-            public GameMain.AthleteSystem.AthleteAbilityData reflection;
+            public GameMain.AthleteSystem.AthleteAbilityData.Ref_AthleteAbilityData reflection;
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x58)]
-            public GameMain.AthleteSystem.AthleteAbilityData exercise;
+            public GameMain.AthleteSystem.AthleteAbilityData.Ref_AthleteAbilityData exercise;
         }
 
         [System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
@@ -44,7 +44,7 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
 
             public static implicit operator Ptr_AthleteAbilitiesData(System.IntPtr ptr) => new Ptr_AthleteAbilitiesData(ptr);
             public static implicit operator System.IntPtr(Ptr_AthleteAbilitiesData ptr) => ptr.m_Pointer;
-            public static implicit operator bool (Ptr_AthleteAbilitiesData ptr) => ptr.m_Pointer != System.IntPtr.Zero;
+            public static implicit operator bool(Ptr_AthleteAbilitiesData ptr) => ptr.m_Pointer != System.IntPtr.Zero;
         }
 
         /// <summary>

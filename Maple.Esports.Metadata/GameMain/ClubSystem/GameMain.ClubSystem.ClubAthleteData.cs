@@ -3,7 +3,7 @@ using Maple.MonoGameAssistant.Core;
 
 namespace Maple.Esports.Metadata.GameMain.ClubSystem
 {
- 
+
     /// <summary>
     /// class ["Assembly-CSharp"."GameMain.ClubSystem"."ClubAthleteData"]
     /// [System.Object]

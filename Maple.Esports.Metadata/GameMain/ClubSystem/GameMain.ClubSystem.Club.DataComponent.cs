@@ -7,7 +7,7 @@ namespace Maple.Esports.Metadata.GameMain.ClubSystem
     /// </summary>
     [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassParentMetadataAttribute<Maple.MonoGameAssistant.MetadataExtensions.MetadataCollector.ClassMetadataCollector<Ptr_DataComponent>, Ptr_DataComponent>]
     [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassModelMetadataAttribute("Assembly-CSharp", "", "DataComponent", "GameMain.ClubSystem.Club.DataComponent")]
-    public partial class DataComponent
+    public partial class ClubDataComponent
     {
         [System.Runtime.InteropServices.StructLayoutAttribute(System.Runtime.InteropServices.LayoutKind.Sequential)]
         public unsafe readonly partial struct Ptr_DataComponent(System.IntPtr ptr) : Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.IPtrMetadata
@@ -83,7 +83,7 @@ namespace Maple.Esports.Metadata.GameMain.ClubSystem
             /// <returns>class GameMain.ClubSystem.ClubAthleteData</returns>
 
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("athleteData", "GameMain.ClubSystem.ClubAthleteData")]
-            public partial ClubAthleteData.Ptr_ClubAthleteData ATHLETE_DATA { get; }
+            public partial ref ClubAthleteData.Ptr_ClubAthleteData ATHLETE_DATA { get; }
 
 
             /// <summary>

@@ -36,7 +36,7 @@ namespace Maple.Esports
         protected override async ValueTask F9_KeyDown()
         {
             var gameEnv = await this.GetEsportsGameEnvThrowIfNotLoadedAsync().ConfigureAwait(false);
-            gameEnv.Test();
+            await this.MonoTaskAsync((p, game) => game.Test(), gameEnv).ConfigureAwait(false);
         }
     }
 }

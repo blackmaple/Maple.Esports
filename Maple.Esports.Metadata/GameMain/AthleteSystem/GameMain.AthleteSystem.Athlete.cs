@@ -202,7 +202,7 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// <returns>class GameMain.AthleteSystem.Athlete.DataComponent</returns>
 
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<C_Data>k__BackingField", "GameMain.AthleteSystem.Athlete.DataComponent")]
-            public partial ref AthleteSystem.DataComponent.Ptr_DataComponent C_DATA { get; }
+            public partial ref AthleteSystem.AthleteDataComponent.Ptr_DataComponent C_DATA { get; }
 
 
             /// <summary>

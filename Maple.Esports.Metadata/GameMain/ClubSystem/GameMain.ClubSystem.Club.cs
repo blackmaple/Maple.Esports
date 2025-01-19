@@ -202,7 +202,7 @@ namespace Maple.Esports.Metadata.GameMain.ClubSystem
             /// <returns>class GameMain.ClubSystem.Club.DataComponent</returns>
 
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<C_Data>k__BackingField", "GameMain.ClubSystem.Club.DataComponent")]
-            public partial ref DataComponent.Ptr_DataComponent C_DATA { get; }
+            public partial ref ClubDataComponent.Ptr_DataComponent C_DATA { get; }
 
             //public ref DataComponent.Ptr_DataComponent C_DATA2
             //    => ref Maple.Esports.Metadata.MetadataModel.Club.GetMemberFieldValue<Maple.Esports.Metadata.DataComponent.Ptr_DataComponent>(this, Maple.Esports.Metadata.MetadataModel.Club.s_Field_C_DATA);

@@ -8,12 +8,12 @@ namespace Maple.Esports.Metadata
     [ContextMemberMetadata<GameMain.Main>]
     [ContextMemberMetadata<GameMain.Game>]
     [ContextMemberMetadata<GameMain.ClubSystem.Club>]
-    [ContextMemberMetadata<GameMain.ClubSystem.DataComponent>]
+    [ContextMemberMetadata<GameMain.ClubSystem.ClubDataComponent>]
+    [ContextMemberMetadata<GameMain.ClubSystem.ClubAthleteData>]
 
-
-
+    
     [ContextMemberMetadata<GameMain.AthleteSystem.Athlete>]
-    [ContextMemberMetadata<GameMain.AthleteSystem.DataComponent>]
+    [ContextMemberMetadata<GameMain.AthleteSystem.AthleteDataComponent>]
     [ContextMemberMetadata<GameMain.AthleteSystem.AthleteContract>]
     [ContextMemberMetadata<GameMain.AthleteSystem.AthleteEmotion>]
 

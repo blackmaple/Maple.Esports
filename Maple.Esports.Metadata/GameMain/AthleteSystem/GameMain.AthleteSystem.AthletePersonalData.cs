@@ -1,3 +1,5 @@
+using Maple.MonoGameAssistant.Core;
+
 namespace Maple.Esports.Metadata.GameMain.AthleteSystem
 {
     /// <summary>
@@ -12,13 +14,13 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
         public partial struct Ref_AthletePersonalData
         {
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x0)]
-            public nint name;
+            public PMonoString name;
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x8)]
             public System.Single age;
             [System.Runtime.InteropServices.FieldOffsetAttribute(0xC)]
             public System.Int32 careerLife;
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x10)]
-            public nint portraitKey;
+            public PMonoString portraitKey;
             [System.Runtime.InteropServices.FieldOffsetAttribute(0x18)]
             public GameMain.AthleteSystem.AthleteCharmRank charm;
         }
@@ -32,7 +34,7 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
 
             public static implicit operator Ptr_AthletePersonalData(System.IntPtr ptr) => new Ptr_AthletePersonalData(ptr);
             public static implicit operator System.IntPtr(Ptr_AthletePersonalData ptr) => ptr.m_Pointer;
-            public static implicit operator bool (Ptr_AthletePersonalData ptr) => ptr.m_Pointer != System.IntPtr.Zero;
+            public static implicit operator bool(Ptr_AthletePersonalData ptr) => ptr.m_Pointer != System.IntPtr.Zero;
         }
 
         /// <summary>
