@@ -431,10 +431,10 @@ namespace Maple.Esports.Metadata.GameMain.ClubSystem
             /// class ["mscorlib"."System.Collections.Generic"."Dictionary`2"]
             /// </summary>
             /// <returns>class System.Collections.Generic.Dictionary<GameMain.AthleteSystem.Athlete , System.Int32></returns>
-            /*
-           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<ClubAttitudes>k__BackingField", "System.Collections.Generic.Dictionary<GameMain.AthleteSystem.Athlete,System.Int32>")]
-           public partial nint CLUB_ATTITUDES { get; set; } 
-*/
+
+            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<ClubAttitudes>k__BackingField", "System.Collections.Generic.Dictionary<GameMain.AthleteSystem.Athlete,System.Int32>")]
+            public partial PMonoDictionary_Esports<GameMain.AthleteSystem.Athlete.Ptr_Athlete, int> CLUB_ATTITUDES { get; }
+
 
             /// <summary>
             /// 0x280 System.Collections.Generic.List<GameMain.AthleteSystem.Athlete> <MatchAthletes>k__BackingField
