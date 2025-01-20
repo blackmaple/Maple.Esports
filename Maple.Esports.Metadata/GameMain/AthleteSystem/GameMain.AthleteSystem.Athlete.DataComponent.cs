@@ -1,3 +1,5 @@
+using Maple.MonoGameAssistant.Core;
+
 namespace Maple.Esports.Metadata.GameMain.AthleteSystem
 {
     /// <summary>
@@ -41,10 +43,10 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// abstract class ["Utility"."Utility.GeneralObject"."GeneralObject"]
             /// </summary>
             /// <returns>abstract class Utility.GeneralObject.GeneralObject</returns>
-            /*
-           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Obj>k__BackingField", "Utility.GeneralObject.GeneralObject")]
-           public partial nint OBJ { get; set; } 
-*/
+
+            //[Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassPropertyMetadataAttribute("<Obj>k__BackingField", "Utility.GeneralObject.GeneralObject")]
+            //public partial PMonoObject OBJ { get; }
+
 
             /// <summary>
             /// 0x20 System.Boolean <IsActive>k__BackingField

@@ -18,7 +18,7 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
 
             public static implicit operator Ptr_AthleteEmotion(System.IntPtr ptr) => new Ptr_AthleteEmotion(ptr);
             public static implicit operator System.IntPtr(Ptr_AthleteEmotion ptr) => ptr.m_Pointer;
-            public static implicit operator bool (Ptr_AthleteEmotion ptr) => ptr.m_Pointer != System.IntPtr.Zero;
+            public static implicit operator bool(Ptr_AthleteEmotion ptr) => ptr.m_Pointer != System.IntPtr.Zero;
         }
 
         /// <summary>
@@ -217,18 +217,18 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// </summary>
             /// <param name = "obj">class GameMain.AthleteSystem.AthleteEmotion</param>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Despawn", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.AthleteEmotion", 0)]
-            public static partial void DESPAWN(nint obj); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Despawn", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.AthleteEmotion", 0)]
+           public static partial void DESPAWN(nint obj); 
 */
             /// <summary>
             /// static  GameMain.AthleteSystem.AthleteEmotion Spawn()
             /// </summary>
             /// <returns>class GameMain.AthleteSystem.AthleteEmotion</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Spawn", "GameMain.AthleteSystem.AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public static partial nint SPAWN(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Spawn", "GameMain.AthleteSystem.AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public static partial nint SPAWN(); 
 */
             /// <summary>
             /// static  GameMain.AthleteSystem.AthleteEmotion Spawn(GameMain.AthleteSystem.AthleteEmotionSetting setting, GameMain.AthleteSystem.Athlete athlete)
@@ -236,11 +236,11 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// <param name = "setting">class GameMain.AthleteSystem.AthleteEmotionSetting</param>
             /// <param name = "athlete">class GameMain.AthleteSystem.Athlete</param>
             /// <returns>class GameMain.AthleteSystem.AthleteEmotion</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Spawn", "GameMain.AthleteSystem.AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.AthleteEmotionSetting", 0)]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 1)]
-            public static partial nint SPAWN(nint setting, nint athlete); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Spawn", "GameMain.AthleteSystem.AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.AthleteEmotionSetting", 0)]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 1)]
+           public static partial nint SPAWN(nint setting, nint athlete); 
 */
             /// <summary>
             /// static  GameMain.AthleteSystem.AthleteEmotion Spawn(System.Int32 level, GameMain.AthleteSystem.Athlete athlete)
@@ -248,197 +248,197 @@ namespace Maple.Esports.Metadata.GameMain.AthleteSystem
             /// <param name = "level">struct System.Int32</param>
             /// <param name = "athlete">class GameMain.AthleteSystem.Athlete</param>
             /// <returns>class GameMain.AthleteSystem.AthleteEmotion</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Spawn", "GameMain.AthleteSystem.AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 1)]
-            public static partial nint SPAWN(System.Int32 level, nint athlete); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Spawn", "GameMain.AthleteSystem.AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 1)]
+           public static partial nint SPAWN(System.Int32 level, nint athlete); 
 */
             /// <summary>
             /// static  GameMain.AthleteSystem.AthleteEmotion SpawnDefault(GameMain.AthleteSystem.Athlete athlete)
             /// </summary>
             /// <param name = "athlete">class GameMain.AthleteSystem.Athlete</param>
             /// <returns>class GameMain.AthleteSystem.AthleteEmotion</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("SpawnDefault", "GameMain.AthleteSystem.AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 0)]
-            public static partial nint SPAWN_DEFAULT(nint athlete); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("SpawnDefault", "GameMain.AthleteSystem.AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 0)]
+           public static partial nint SPAWN_DEFAULT(nint athlete); 
 */
             /// <summary>
             ///   System.Void .ctor()
             /// </summary>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute(".ctor", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial void CTOR(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute(".ctor", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial void CTOR(); 
 */
             /// <summary>
             ///   System.Void ChangeCheck(System.Nullable<GameMain.AthleteSystem.AthleteEmotionChangeData> changeData)
             /// </summary>
             /// <param name = "changeData">struct System.Nullable<GameMain.AthleteSystem.AthleteEmotionChangeData></param>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("ChangeCheck", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Nullable<GameMain.AthleteSystem.AthleteEmotionChangeData>", 0)]
-            public partial void CHANGE_CHECK(System.Nullable<GameMain.AthleteSystem.AthleteEmotionChangeData> changeData); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("ChangeCheck", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Nullable<GameMain.AthleteSystem.AthleteEmotionChangeData>", 0)]
+           public partial void CHANGE_CHECK(System.Nullable<GameMain.AthleteSystem.AthleteEmotionChangeData> changeData); 
 */
             /// <summary>
             ///   System.Void Degrade(System.Int32 value)
             /// </summary>
             /// <param name = "value">struct System.Int32</param>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Degrade", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
-            public partial void DEGRADE(System.Int32 value); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Degrade", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
+           public partial void DEGRADE(System.Int32 value); 
 */
             /// <summary>
             ///   GameMain.AthleteSystem.Athlete get_Athlete()
             /// </summary>
             /// <returns>class GameMain.AthleteSystem.Athlete</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_Athlete", "GameMain.AthleteSystem.Athlete", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial nint GET_ATHLETE(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_Athlete", "GameMain.AthleteSystem.Athlete", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial nint GET_ATHLETE(); 
 */
             /// <summary>
             ///   Utility.GameSystem.LogicFrameworkX.LogicObject.SettingComponent<GameMain.AthleteSystem.AthleteEmotion , LogicFramework.LogicEntity_AthleteEmotion , GameMain.AthleteSystem.AthleteEmotionSetting> get_C_Setting()
             /// </summary>
             /// <returns>class Utility.GameSystem.LogicFrameworkX.LogicObject.SettingComponent<GameMain.AthleteSystem.AthleteEmotion , LogicFramework.LogicEntity_AthleteEmotion , GameMain.AthleteSystem.AthleteEmotionSetting></returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_C_Setting", "Utility.GameSystem.LogicFrameworkX.LogicObject.SettingComponent<GameMain.AthleteSystem.AthleteEmotion,LogicFramework.LogicEntity_AthleteEmotion,GameMain.AthleteSystem.AthleteEmotionSetting>", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial nint GET_C_SETTING(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_C_Setting", "Utility.GameSystem.LogicFrameworkX.LogicObject.SettingComponent<GameMain.AthleteSystem.AthleteEmotion,LogicFramework.LogicEntity_AthleteEmotion,GameMain.AthleteSystem.AthleteEmotionSetting>", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial nint GET_C_SETTING(); 
 */
             /// <summary>
             ///   System.Single get_DegradeChance()
             /// </summary>
             /// <returns>struct System.Single</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_DegradeChance", "System.Single", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial System.Single GET_DEGRADE_CHANCE(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_DegradeChance", "System.Single", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial System.Single GET_DEGRADE_CHANCE(); 
 */
             /// <summary>
             ///   System.Int32 get_ForceChangeThreshold()
             /// </summary>
             /// <returns>struct System.Int32</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_ForceChangeThreshold", "System.Int32", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial System.Int32 GET_FORCE_CHANGE_THRESHOLD(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_ForceChangeThreshold", "System.Int32", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial System.Int32 GET_FORCE_CHANGE_THRESHOLD(); 
 */
             /// <summary>
             ///   System.Int32 get_Level()
             /// </summary>
             /// <returns>struct System.Int32</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_Level", "System.Int32", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial System.Int32 GET_LEVEL(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_Level", "System.Int32", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial System.Int32 GET_LEVEL(); 
 */
             /// <summary>
             ///   System.Type get_SaveDataType()
             /// </summary>
             /// <returns>abstract class System.Type</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_SaveDataType", "System.Type", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial nint GET_SAVE_DATA_TYPE(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_SaveDataType", "System.Type", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial nint GET_SAVE_DATA_TYPE(); 
 */
             /// <summary>
             ///   GameMain.AthleteSystem.AthleteEmotionSetting get_Setting()
             /// </summary>
             /// <returns>class GameMain.AthleteSystem.AthleteEmotionSetting</returns>
-             /*
+
             [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_Setting", "GameMain.AthleteSystem.AthleteEmotionSetting", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial nint GET_SETTING(); 
-*/
+            public partial AthleteEmotionSetting.Ptr_AthleteEmotionSetting GET_SETTING();
+
             /// <summary>
             ///   System.Int32 get_UnchangeRecord()
             /// </summary>
             /// <returns>struct System.Int32</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_UnchangeRecord", "System.Int32", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial System.Int32 GET_UNCHANGE_RECORD(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_UnchangeRecord", "System.Int32", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial System.Int32 GET_UNCHANGE_RECORD(); 
 */
             /// <summary>
             ///   System.Single get_UpgradeChance()
             /// </summary>
             /// <returns>struct System.Single</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_UpgradeChance", "System.Single", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial System.Single GET_UPGRADE_CHANCE(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("get_UpgradeChance", "System.Single", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial System.Single GET_UPGRADE_CHANCE(); 
 */
             /// <summary>
             ///   System.Void OnAddToAthlete(GameMain.AthleteSystem.Athlete athlete)
             /// </summary>
             /// <param name = "athlete">class GameMain.AthleteSystem.Athlete</param>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("OnAddToAthlete", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 0)]
-            public partial void ON_ADD_TO_ATHLETE(nint athlete); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("OnAddToAthlete", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 0)]
+           public partial void ON_ADD_TO_ATHLETE(nint athlete); 
 */
             /// <summary>
             ///   System.Void OnDespawn(Utility.PoolSystem.PoolEventContext context)
             /// </summary>
             /// <param name = "context">struct Utility.PoolSystem.PoolEventContext</param>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("OnDespawn", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("Utility.PoolSystem.PoolEventContext", 0)]
-            public partial void ON_DESPAWN(Utility.PoolSystem.PoolEventContext context); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("OnDespawn", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("Utility.PoolSystem.PoolEventContext", 0)]
+           public partial void ON_DESPAWN(Utility.PoolSystem.PoolEventContext context); 
 */
             /// <summary>
             ///   System.Void OnRemoveFromAthlete()
             /// </summary>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("OnRemoveFromAthlete", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial void ON_REMOVE_FROM_ATHLETE(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("OnRemoveFromAthlete", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial void ON_REMOVE_FROM_ATHLETE(); 
 */
             /// <summary>
             ///   System.Void set_Athlete(GameMain.AthleteSystem.Athlete value)
             /// </summary>
             /// <param name = "value">class GameMain.AthleteSystem.Athlete</param>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("set_Athlete", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 0)]
-            public partial void SET_ATHLETE(nint value); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("set_Athlete", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("GameMain.AthleteSystem.Athlete", 0)]
+           public partial void SET_ATHLETE(nint value); 
 */
             /// <summary>
             ///   System.Void set_UnchangeRecord(System.Int32 value)
             /// </summary>
             /// <param name = "value">struct System.Int32</param>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("set_UnchangeRecord", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
-            public partial void SET_UNCHANGE_RECORD(System.Int32 value); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("set_UnchangeRecord", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
+           public partial void SET_UNCHANGE_RECORD(System.Int32 value); 
 */
             /// <summary>
             ///   System.Void SetLevel(System.Int32 level)
             /// </summary>
             /// <param name = "level">struct System.Int32</param>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("SetLevel", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
-            public partial void SET_LEVEL(System.Int32 level); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("SetLevel", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
+           public partial void SET_LEVEL(System.Int32 level); 
 */
             /// <summary>
             ///   LogicFramework.LogicEntity_AthleteEmotion SpawnEntity()
             /// </summary>
             /// <returns>class LogicFramework.LogicEntity_AthleteEmotion</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("SpawnEntity", "LogicFramework.LogicEntity_AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            public partial nint SPAWN_ENTITY(); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("SpawnEntity", "LogicFramework.LogicEntity_AthleteEmotion", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           public partial nint SPAWN_ENTITY(); 
 */
             /// <summary>
             ///   System.Void Upgrade(System.Int32 value)
             /// </summary>
             /// <param name = "value">struct System.Int32</param>
             /// <returns>struct System.Void</returns>
-             /*
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Upgrade", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
-            [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
-            public partial void UPGRADE(System.Int32 value); 
+            /*
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodMetadataAttribute("Upgrade", "System.Void", CallConvs = [typeof(System.Runtime.CompilerServices.CallConvSuppressGCTransition)])]
+           [Maple.MonoGameAssistant.MetadataExtensions.MetadataGenerator.ClassMethodParameterMetadataAttribute("System.Int32", 0)]
+           public partial void UPGRADE(System.Int32 value); 
 */
         }
 
